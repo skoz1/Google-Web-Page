@@ -1,88 +1,139 @@
-            body,
-            html {
-                font-family: 'roboto';
-            }
-            /*----------------------------*/
-            /*NAVIGATION*/
-            /*----------------------------*/
-            
-            #search-row {
-                display: grid;
-                grid-template-columns: 170px 78% 40px 1fr;
-                margin: 30px 3px 10px 30px;
-            }
-            
-            #google-logo {
-                height: 35px;
-            }
-            
-            #search-bar {
-                position: scroll;
-                height: 45px;
-                width: 675px;
-                border-radius: 30px;
-                border: 1px solid rgb(220, 208, 208);
-            }
-            
-            #search-bar:hover {
-                box-shadow: 0 1px 1px 0 rgba(114, 113, 113, 0.24), 0 1px 5px 0 rgba(157, 157, 219, 0.452);
-            }
-            
-            .search-bar-icon {
-                position: scroll;
-                background-image: url(https://img.icons8.com/material-sharp/24/000000/search.png), url(https://img.icons8.com/android/24/000000/microphone.png), url(https://img.icons8.com/ios/24/000000/vertical-line.png), url(https://img.icons8.com/material/24/000000/multiply--v2.png);
-                background-repeat: no-repeat;
-                background-position: 630px, 590px, 560px, 530px;
-            }
-            
-            #apps {
-                height: 40px;
-                width: 20px;
-                color: rgb(150, 145, 145);
-            }
-            
-            #profile-pic {
-                height: 40px;
-                width: 37px;
-                border-radius: 50%;
-                object-fit: cover;
-            }
-            
-            #nav-row {
-                display: grid;
-                grid-template-columns: 60px 70px 70px 80px 90px 140px 80px 90px;
-                margin-top: 30px;
-                font-size: 14px;
-                margin-left: 190px;
-                margin-bottom: -10px;
-            }
-            
-            .ion-icon-nav {
-                position: relative;
-                padding-right: 5px;
-                font-size: 16px;
-                top: 3px;
-            }
-            
-            #blue {
-                color: rgb(0, 123, 255);
-                border-bottom: 3px solid rgb(0, 123, 255);
-                padding-bottom: 20px;
-                width: 50px;
-            }
-            
-            #grey {
-                color: rgb(150, 145, 145);
-                font-weight: 100;
-            }
-            
-            .margin {
-                margin-top: 4px;
-            }
-            /*----------------------------*/
-            /*ROW*/
-            /*----------------------------*/
-            
-            .row {
-                border-top: .5px solid rgb(224, 213, 213);
-            }
+                body,
+                html,
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6,
+                p,
+                div {
+                    font-family: 'roboto';
+                }
+                /*----------------------------*/
+                /*NAVIGATION*/
+                /*----------------------------*/
+                
+                #search-row {
+                    display: grid;
+                    grid-template-columns: 170px 78% 40px 1fr;
+                    margin: 30px 3px 10px 30px;
+                }
+                
+                #google-logo {
+                    height: 35px;
+                }
+                
+                #search-bar {
+                    position: scroll;
+                    height: 45px;
+                    width: 675px;
+                    border-radius: 30px;
+                    border: 1px solid rgb(220, 208, 208);
+                }
+                
+                #search-bar:hover {
+                    box-shadow: 0 1px 1px 0 rgba(114, 113, 113, 0.24), 0 1px 5px 0 rgba(157, 157, 219, 0.452);
+                }
+                
+                .search-bar-icon {
+                    position: scroll;
+                    background-image: url(https://img.icons8.com/material-sharp/24/000000/search.png), url(https://img.icons8.com/android/24/000000/microphone.png), url(https://img.icons8.com/ios/24/000000/vertical-line.png), url(https://img.icons8.com/material/24/000000/multiply--v2.png);
+                    background-repeat: no-repeat;
+                    background-position: 630px, 590px, 560px, 530px;
+                }
+                
+                h1 {
+                    font-size: 12px;
+                }
+                
+                #apps {
+                    height: 40px;
+                    width: 20px;
+                    color: rgb(150, 145, 145);
+                }
+                
+                #profile-pic {
+                    height: 40px;
+                    width: 37px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+                
+                #nav-row {
+                    display: grid;
+                    grid-template-columns: 60px 70px 70px 80px 90px 140px 80px 90px;
+                    margin-top: 10px;
+                    font-size: 14px;
+                    margin-left: 190px;
+                    margin-bottom: -10px;
+                }
+                
+                .ion-icon-nav {
+                    position: relative;
+                    padding-right: 5px;
+                    font-size: 16px;
+                    top: 3px;
+                }
+                
+                #blue {
+                    color: rgb(0, 123, 255);
+                    border-bottom: 3px solid rgb(0, 123, 255);
+                    padding-bottom: 15px;
+                    width: 60px;
+                    position: relative;
+                    right: 10px;
+                }
+                
+                #grey {
+                    color: rgb(94, 91, 91);
+                }
+                
+                .margin {
+                    margin-top: 15px;
+                }
+                /*----------------------------*/
+                /*ROW*/
+                /*----------------------------*/
+                
+                .row {
+                    border-top: .5px solid rgb(224, 213, 213);
+                    margin-top: -10px;
+                }
+                /*----------------------------*/
+                /*SECTION LINKS*/
+                /*----------------------------*/
+                
+                .links {
+                    margin: 15px 450px 10px 220px;
+                }
+                
+                #results {
+                    font-size: 10px;
+                    margin-bottom: 30px;
+                }
+                
+                h2 {
+                    color: rgb(150, 145, 145);
+                }
+                
+                h4 {
+                    font-size: 20px;
+                    margin-top: -8px;
+                    color: rgb(16, 16, 191);
+                }
+                
+                h3 {
+                    color: rgb(94, 91, 91);
+                    font-size: 14px;
+                }
+                
+                p {
+                    font-size: 15px;
+                    color: rgb(94, 91, 91);
+                    margin-top: -20px;
+                }
+                
+                .link-text {
+                    margin-bottom: 30px;
+                }
