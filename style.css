@@ -156,10 +156,20 @@
                 .vid-flex {
                     display: flex;
                     justify-content: space-between;
-                    border: 1px solid grey;
-                    height: 300px;
+                    border-radius: 20px;
                 }
                 
                 .border {
-                    border: 1px solid grey;
+                    border: 1px solid rgb(224, 213, 213);
+                    border-radius: 10px;
+                    overflow: hidden;
+                    z-index: 1;
+                    height: 300px;
+                    margin: 5px;
+                }
+                
+                .vid-text {
+                    padding-top: 20px;
+                    font-size: 17px;
+                    overflow: elipsis:
                 }
