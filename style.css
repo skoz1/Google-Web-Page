@@ -123,6 +123,10 @@
                     color: rgb(16, 16, 191);
                 }
                 
+                h4:hover {
+                    text-decoration: underline;
+                }
+                
                 h3 {
                     color: rgb(94, 91, 91);
                     font-size: 14px;
@@ -136,4 +140,15 @@
                 
                 .link-text {
                     margin-bottom: 30px;
+                }
+                /*----------------------------*/
+                /*VIDEOS*/
+                /*----------------------------*/
+                
+                h5 {
+                    font-size: 20px;
+                }
+                
+                .videos {
+                    margin: 15px 450px 10px 220px;
                 }
