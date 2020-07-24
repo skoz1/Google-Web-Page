@@ -22,6 +22,7 @@
                                                         
                                                         #google-logo {
                                                             height: 35px;
+                                                            padding-left: 20px;
                                                         }
                                                         
                                                         #search-bar {
@@ -197,7 +198,7 @@
                                                         
                                                         .arrow-btn {
                                                             margin-top: 170px;
-                                                            margin-left: 720px;
+                                                            margin-left: 690px;
                                                             z-index: 999;
                                                             position: absolute;
                                                         }
@@ -218,18 +219,20 @@
                                                         /*QUESTION LIST*/
                                                         /*----------------------------*/
                                                         
+                                                        #border-title {
+                                                            font-size: 20px;
+                                                        }
+                                                        
                                                         .border-2 {
-                                                            border: 1px solid rgb(224, 213, 213);
-                                                            padding-left: 20px;
-                                                            color: rgb(65, 60, 60);
+                                                            border: 1px solid rgba(169, 166, 166, 0.404);
+                                                            padding-left: 10px;
                                                         }
                                                         
                                                         .q-a {
-                                                            padding: 10px;
+                                                            padding: 13px;
                                                             margin: -1px 0 -1px 0;
                                                             font-size: 15px;
-                                                            color: rgb(65, 60, 60);
-                                                            border-radius: 10px;
+                                                            color: rgb(0, 0, 0);
                                                         }
                                                         
                                                         #feedback-effect {
@@ -392,7 +395,7 @@
                                                         /*FOOTER*/
                                                         /*----------------------------*/
                                                         
-                                                        .footer {
+                                                        footer {
                                                             background-color: rgba(189, 189, 189, 0.381);
                                                             border-top: 1px solid rgb(204, 198, 198);
                                                             display: block;
@@ -400,16 +403,19 @@
                                                             margin-left: -370px;
                                                             width: 100vw;
                                                             height: 100%;
-                                                            margin-bottom: -20px;
                                                         }
                                                         
                                                         .inner-footer {
                                                             width: 100vw;
-                                                            padding: 20px 0 10px 220px;
+                                                            padding: 20px 0 0 220px;
                                                         }
                                                         
                                                         #footer-span {
                                                             color: black;
+                                                        }
+                                                        
+                                                        .footer-span-2 {
+                                                            color: rgb(131, 127, 127);
                                                         }
                                                         
                                                         .footer-list {
